@@ -1,0 +1,73 @@
+{
+  "version": "0.1",
+  "tables": [
+    {
+      "id": "91860894-03bf-4d63-a598-33e5558be30b",
+      "tableName": "Product",
+      "fields": [
+        {
+          "id": "fd3d0f32-d9e7-4d96-a161-0dd376c64fe2",
+          "PK": true,
+          "name": "_id",
+          "type": "objectId",
+          "isNN": true,
+          "children": []
+        },
+        {
+          "id": "e82af4d6-37fd-4291-9172-0969d1a9f2aa",
+          "PK": false,
+          "name": "code",
+          "type": "objectId",
+          "children": []
+        },
+        {
+          "id": "789db25c-8299-4955-889f-e52663e0f912",
+          "PK": false,
+          "name": "name",
+          "type": "string",
+          "children": []
+        },
+        {
+          "id": "d819b8b7-d6fe-4a22-b82e-2e493ac2066a",
+          "PK": false,
+          "name": "description",
+          "type": "string",
+          "children": []
+        },
+        {
+          "id": "e9d4b7a8-0346-4e82-8822-a7c4498b10d5",
+          "PK": false,
+          "name": "category",
+          "type": "string",
+          "children": []
+        },
+        {
+          "id": "b659d547-ce3d-4766-9f35-031031ec0722",
+          "PK": false,
+          "name": "measure",
+          "type": "string",
+          "children": []
+        },
+        {
+          "id": "44c40952-5b4f-40c2-81a1-5cde9aff99cf",
+          "PK": false,
+          "name": "package",
+          "type": "bool",
+          "children": []
+        },
+        {
+          "id": "7bdc0941-8094-4527-8883-9907a3772c84",
+          "PK": false,
+          "name": "brand",
+          "type": "string",
+          "children": []
+        }
+      ],
+      "x": 40,
+      "y": 47.349999999999994
+    }
+  ],
+  "relations": [],
+  "selectedElementId": "91860894-03bf-4d63-a598-33e5558be30b",
+  "isPristine": false
+}
